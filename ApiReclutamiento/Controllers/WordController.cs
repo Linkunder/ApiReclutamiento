@@ -24,12 +24,12 @@ namespace ApiReclutamiento.Controllers
                 {
                     string palabra = json.data;
 
-                    if (Regex.IsMatch(palabra, "[a-z]{4}"))
+                    if (Regex.IsMatch(palabra, "^[a-z]{4}$")) 
                     {
                         return Ok(
                             new
                             {
-                               code = 00 , descripton = "OK", data = palabra.ToUpper()
+                               code = "00" , descripton = "OK", data = palabra.ToUpper()
                             }
                                 );
 
@@ -37,10 +37,9 @@ namespace ApiReclutamiento.Controllers
                 }
             }catch(Exception e)
             {
-                
                 return InternalServerError(e);
             }
-            return BadRequest("400-Bad Request.");
+            return BadRequest("400 - bad request.");
 
     
 
