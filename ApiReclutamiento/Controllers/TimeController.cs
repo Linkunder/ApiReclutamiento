@@ -19,9 +19,8 @@ namespace ApiReclutamiento.Controllers
             try
             {
                 //<Summary>
-                //Check the value on the get request, the format for this is HH:MM:SS
+                //Check the value on the get request, the format for input is HH:MM:SS
                 //</Summary>
-                //Se comprueba lo que ha llegado por get, el numero 8 es considerando el formato HH:MM:SS
                 if (value != null && Regex.IsMatch(value, "^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]$"))
                 {
 
