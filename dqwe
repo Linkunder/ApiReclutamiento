@@ -1,0 +1,41 @@
+[33mcommit 229f827518bc293047309dbce3d80f38ff161fec[m
+Author: CarlosMoraRoa <cmora@kunder.cl>
+Date:   Tue May 23 11:37:29 2017 -0400
+
+    line into file only on develop
+
+[33mcommit 7e0d719e4a5a7fb203e14502c6bde629a5c912b1[m
+Author: CarlosMoraRoa <cmora@kunder.cl>
+Date:   Tue May 23 11:12:08 2017 -0400
+
+    First commit on example develop branch
+
+[33mcommit 1c9fdda791ef370b60ced6988c7e0d9f75a6c5c9[m
+Author: Linkunder <Linkunder@users.noreply.github.com>
+Date:   Tue Apr 18 10:32:54 2017 -0300
+
+    Create README.md
+
+[33mcommit 14bb5419a0c30df56ab9fa10edba23dc6da431b3[m
+Author: Linkunder <linkunder@hotmail.com>
+Date:   Tue Apr 18 10:20:57 2017 -0300
+
+    .
+
+[33mcommit 67f5af71688b470302d8423ae3845ba3cbff8491[m
+Author: Linkunder <linkunder@hotmail.com>
+Date:   Tue Apr 18 10:12:39 2017 -0300
+
+    Cambios en las validaciones
+
+[33mcommit 28c66e414de84fbd4b20e878d86672bd9dba58aa[m
+Author: Linkunder <linkunder@hotmail.com>
+Date:   Tue Apr 18 09:29:03 2017 -0300
+
+    Api
+
+[33mcommit 7567568a575e6066e83dc05c4d03dd6afaed1e47[m
+Author: Linkunder <linkunder@hotmail.com>
+Date:   Tue Apr 18 09:27:57 2017 -0300
+
+    :lollipop: Added .gitattributes & .gitignore files
